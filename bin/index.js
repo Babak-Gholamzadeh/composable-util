@@ -25,4 +25,5 @@ module.exports = {
   length: require('./length'),
   take: require('./take'),
   head: require('./head'),
+  toUpperCase: require('./to-upper-case'),
 }
