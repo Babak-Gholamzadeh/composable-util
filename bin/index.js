@@ -18,4 +18,5 @@ module.exports = {
   multiply: require('./multiply'),
   divide: require('./divide'),
   modulo: require('./modulo'),
+  join: require('./join'),
 }
