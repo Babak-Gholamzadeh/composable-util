@@ -4,4 +4,5 @@ module.exports = {
   pipe: require('./pipe'),
   Identity: require('./identity'),
   Maybe: require('./maybe'),
+  map: require('./map'),
 }
