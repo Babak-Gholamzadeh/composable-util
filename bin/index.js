@@ -24,4 +24,5 @@ module.exports = {
   split: require('./split'),
   length: require('./length'),
   take: require('./take'),
+  head: require('./head'),
 }
