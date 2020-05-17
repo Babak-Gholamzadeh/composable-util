@@ -3,4 +3,5 @@ module.exports = {
   compose: require('./compose'),
   pipe: require('./pipe'),
   Identity: require('./identity'),
+  Maybe: require('./maybe'),
 }
