@@ -23,4 +23,5 @@ module.exports = {
   slice: require('./slice'),
   split: require('./split'),
   length: require('./length'),
+  take: require('./take'),
 }
