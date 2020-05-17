@@ -8,4 +8,9 @@ module.exports = {
   fold: require('./fold'),
   mjoin: require('./mjoin'),
   chain: require('./chain'),
+  Either: require('./either'),
+  Right: require('./either/right'),
+  Left: require('./either/left'),
+  fromNullable: require('./either/from-nullable'),
+  tryCatch: require('./either/try-catch'),
 }
