@@ -21,4 +21,5 @@ module.exports = {
   join: require('./join'),
   contains: require('./contains'),
   slice: require('./slice'),
+  split: require('./split'),
 }
