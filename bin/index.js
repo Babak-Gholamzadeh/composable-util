@@ -5,4 +5,5 @@ module.exports = {
   Identity: require('./identity'),
   Maybe: require('./maybe'),
   map: require('./map'),
+  fold: require('./fold'),
 }
