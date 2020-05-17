@@ -20,4 +20,5 @@ module.exports = {
   modulo: require('./modulo'),
   join: require('./join'),
   contains: require('./contains'),
+  slice: require('./slice'),
 }
