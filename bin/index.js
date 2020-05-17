@@ -22,4 +22,5 @@ module.exports = {
   contains: require('./contains'),
   slice: require('./slice'),
   split: require('./split'),
+  length: require('./length'),
 }
