@@ -13,4 +13,5 @@ module.exports = {
   Left: require('./either/left'),
   fromNullable: require('./either/from-nullable'),
   tryCatch: require('./either/try-catch'),
+  add: require('./add'),
 }
