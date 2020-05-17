@@ -17,4 +17,5 @@ module.exports = {
   sub: require('./sub'),
   multiply: require('./multiply'),
   divide: require('./divide'),
+  modulo: require('./modulo'),
 }
