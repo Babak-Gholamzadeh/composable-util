@@ -19,4 +19,5 @@ module.exports = {
   divide: require('./divide'),
   modulo: require('./modulo'),
   join: require('./join'),
+  contains: require('./contains'),
 }
