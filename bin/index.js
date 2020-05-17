@@ -26,4 +26,5 @@ module.exports = {
   take: require('./take'),
   head: require('./head'),
   toUpperCase: require('./to-upper-case'),
+  capitalize: require('./capitalize'),
 }
