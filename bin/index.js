@@ -7,4 +7,5 @@ module.exports = {
   map: require('./map'),
   fold: require('./fold'),
   mjoin: require('./mjoin'),
+  chain: require('./chain'),
 }
