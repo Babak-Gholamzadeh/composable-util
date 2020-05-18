@@ -1,6 +1,6 @@
 # Composable Utils
 
-A bunch of handy utilities that might be needed in functional programming. They can facilate the implementations and logics that are require in this paradigm.
+A bunch of handy utilities that might be needed in functional programming. They can facilitate the implementation and logics that are required in this paradigm.
 
 ## Installation
 ```
