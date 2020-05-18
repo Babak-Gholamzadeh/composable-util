@@ -1,5 +1,5 @@
 {
-  "name": "composable-util",
+  "name": "composable-utils",
   "version": "0.1.1",
   "description": "Some utilities that are used in functional programming",
   "main": "./lib/index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Babak-Gholamzadeh/composable-util.git"
+    "url": "git+https://github.com/Babak-Gholamzadeh/composable-utils.git"
   },
   "keywords": [
     "functional",
@@ -27,7 +27,7 @@
   "author": "Babak Gholamzadeh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Babak-Gholamzadeh/composable-util/issues"
+    "url": "https://github.com/Babak-Gholamzadeh/composable-utils/issues"
   },
-  "homepage": "https://github.com/Babak-Gholamzadeh/composable-util#readme"
+  "homepage": "https://github.com/Babak-Gholamzadeh/composable-utils#readme"
 }
