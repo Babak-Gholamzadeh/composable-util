@@ -6,7 +6,7 @@ A bunch of handy utilities that might be needed in functional programming. They 
 ```
 $ npm install composable-utils
 ```
----
+
 ## Usage
 
 For importing the package you have some different choices.
