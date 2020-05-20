@@ -38,10 +38,11 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
-    {doc: 'doc4', label: 'API'},
-    {page: 'help', label: 'Help'},
-    {blog: true, label: 'Blog'},
+    { doc: 'doc1', label: 'Docs' },
+    { doc: 'doc4', label: 'API' },
+    { page: 'help', label: 'Help' },
+    { href: 'https://github.com/Babak-Gholamzadeh/composable-utils', label: 'GitHub', external: true },
+    // {blog: true, label: 'Blog'},
   ],
 
   // If you have users set above, you add it here:
@@ -57,6 +58,7 @@ const siteConfig = {
     primaryColor: '#ab543f',
     secondaryColor: '#773a2c',
   },
+  editUrl: 'https://github.com/babak-gholamzadeh/composable-utils/edit/documentation/docs/',
 
   /* Custom fonts for website */
   /*
@@ -77,11 +79,19 @@ const siteConfig = {
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
-    theme: 'default',
+    // theme: 'default',
+    // theme: 'monokai-sublime',
+    theme: 'atom-one-dark',
+    defaultLang: 'javascript',
   },
 
   // Add custom scripts here that would be placed in <script> tags.
-  scripts: ['https://buttons.github.io/buttons.js'],
+  scripts: [
+    'https://buttons.github.io/buttons.js',
+    'https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js',
+    '/composable-utils/js/code-block-buttons.js',
+  ],
+  stylesheets: ['/composable-utils/css/code-block-buttons.css'],
 
   // On page navigation for the current documentation page.
   onPageNav: 'separate',
@@ -91,6 +101,8 @@ const siteConfig = {
   // Open Graph and Twitter card images.
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
+
+  twitterUsername: 'BabakJavaScript',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
@@ -104,7 +116,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  //   repoUrl: 'https://github.com/facebook/test-site',
+    // repoUrl: 'https://github.com/facebook/test-site',
 };
 
 module.exports = siteConfig;
