@@ -47,6 +47,10 @@ const sum = _.curry((a, b) => a + b);
 
 *Note: If you don't pass any argument to `exposeGlobally` function, the default value is `$` character.*
 
+## Documentation
+
+Read the [API documentation](https://babak-gholamzadeh.github.io/composable-utils/) in detail (*still under construction*).
+
 ---
 
 ## license
