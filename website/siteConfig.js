@@ -22,7 +22,7 @@ const users = [
 
 const siteConfig = {
   title: 'Composable Utils', // Title for your website.
-  tagline: 'JavaScript library for functional programming',
+  tagline: 'A JavaScript library for functional programming',
   url: 'https://babak-gholamzadeh.github.io', // Your website URL
   baseUrl: '/composable-utils/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
@@ -38,9 +38,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    { doc: 'doc1', label: 'Docs' },
-    { doc: 'doc4', label: 'API' },
-    { page: 'help', label: 'Help' },
+    { doc: 'get-started/installation', label: 'Get Started' },
+    { doc: 'api-reference/curry', label: 'API Reference' },
+    // { page: 'help', label: 'Help' },
     { href: 'https://github.com/Babak-Gholamzadeh/composable-utils', label: 'GitHub', external: true },
     // {blog: true, label: 'Blog'},
   ],
@@ -49,14 +49,14 @@ const siteConfig = {
   users,
 
   /* path to images for header/footer */
-  headerIcon: 'img/favicon.ico',
-  footerIcon: 'img/favicon.ico',
-  favicon: 'img/favicon.ico',
+  // headerIcon: 'img/favicon.ico',
+  // footerIcon: 'img/favicon.ico',
+  // favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
-    primaryColor: '#ab543f',
-    secondaryColor: '#773a2c',
+    primaryColor: '#282c34',
+    secondaryColor: 'red',
   },
   editUrl: 'https://github.com/babak-gholamzadeh/composable-utils/edit/documentation/docs/',
 
@@ -75,7 +75,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} Babak Gholamzadeh`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -102,7 +102,7 @@ const siteConfig = {
   ogImage: 'img/undraw_online.svg',
   twitterImage: 'img/undraw_tweetstorm.svg',
 
-  twitterUsername: 'BabakJavaScript',
+  // twitterUsername: 'BabakJavaScript',
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.

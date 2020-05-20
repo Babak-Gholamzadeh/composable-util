@@ -36,10 +36,10 @@ class HomeSplash extends React.Component {
     );
 
     const ProjectTitle = props => (
-      <h2 className="projectTitle">
+      <h1 className="projectTitle">
         {props.title}
         <small>{props.tagline}</small>
-      </h2>
+      </h1>
     );
 
     const PromoSection = props => (
@@ -60,13 +60,13 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        {/* <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} /> */}
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('get-started/installation.html')}>Get Started</Button>
+            <Button href={docUrl('api-reference/curry.html')}>API Documentation</Button>
+            {/* <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           </PromoSection>
         </div>
       </SplashContainer>
@@ -101,17 +101,19 @@ class Index extends React.Component {
       </div>
     );
 
-    const TryOut = () => (
-      <Block id="try">
+    const GetStarted = () => (
+      <Block id="get-started">
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/undraw_code_review.svg`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+              `This library includes a bunch of handy utilities that might be needed in functional programming.
+              They can facilitate the implementation and logics that are required in this paradigm.`,
+              // 'To make your landing page more attractive, use illustrations! Check out ' +
+              // '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
+              // 'The illustrations you see on this page are from unDraw.',
+            // image: `${baseUrl}img/undraw_code_review.svg`,
+            // imageAlign: 'left',
+            // title: 'Wonderful SVG Illustrations',
           },
         ]}
       </Block>
@@ -181,14 +183,14 @@ class Index extends React.Component {
 
       return (
         <div className="productShowcaseSection paddingBottom">
-          <h2>Who is Using This?</h2>
-          <p>This project is used by all these people</p>
+          <h2>Installation</h2>
+          {/* <p>This project is used by all these people</p>
           <div className="logos">{showcase}</div>
           <div className="more-users">
             <a className="button" href={pageUrl('users.html')}>
               More {siteConfig.title} Users
             </a>
-          </div>
+          </div> */}
         </div>
       );
     };
@@ -197,12 +199,12 @@ class Index extends React.Component {
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <GetStarted />
+          {/* <Features /> */}
+          {/* <FeatureCallout /> */}
+          {/* <LearnHow /> */}
+          {/* <Description /> */}
+          {/* <Showcase /> */}
         </div>
       </div>
     );
