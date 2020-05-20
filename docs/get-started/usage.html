@@ -96,7 +96,9 @@
 <p>And the last but not least, you migth want to require the utils once and access them from anywhere.</p>
 <p>You can easily achive that by using <code>exposeGlobally</code> method after require the library.</p>
 <p>By calling this method you should pass an argument to it that you want to be used as a namespace in global scope.</p>
-<p><em>Note: If you don't pass any argument to <code>exposeGlobally</code> method, the default value is $ character.</em></p>
+<blockquote>
+<p>If you don't pass any argument to <code>exposeGlobally</code> method, the default value is $ character.</p>
+</blockquote>
 <pre><code class="hljs css language-javascript"><span class="hljs-comment">// You can expose it in the entry point</span>
 <span class="hljs-built_in">require</span>(<span class="hljs-string">'composable-utils'</span>).exposeGlobally(<span class="hljs-string">'_'</span>);
 
